@@ -1,0 +1,220 @@
+<!--
+ * @Author: LAPTOP-PPCDBO7S\Yimso 285715057@qq.com
+ * @Date: 2024-05-15 16:29:49
+ * @LastEditors: LAPTOP-PPCDBO7S\Yimso 285715057@qq.com
+ * @LastEditTime: 2024-05-19 12:06:49
+ * @FilePath: \Web Development\Personal Site\collection.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      html,
+      body,
+      header,
+      div,
+      h1,
+      h2,
+      h3 {
+        margin: 0;
+        padding: 0;
+      }
+      .title_box {
+        width: fit-content;
+        margin: 0 auto;
+      }
+      .title_content {
+        width: fit-content;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+      }
+      .title_text {
+        font: bold 26px/2em "Fira code", Arial, Helvetica, sans-serif;
+      }
+      .head_img {
+        width: 7rem;
+        font-size: 0;
+        vertical-align: top;
+        border: 1px solid #acdef3;
+        border-radius: 1rem;
+        box-shadow: 0 6px 3px rgba(178, 240, 241, 0.4);
+        margin: 0 1rem;
+      }
+      .works_title {
+        font: bold 20px/2em "Fira code", Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+      .works_content {
+        width: fit-content;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 20px;
+        border-top: 2px solid #acdef3;
+      }
+      .works_item {
+        max-width: 30rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        box-shadow: 0 6px 3px rgba(0, 0, 0, 0.4);
+      }
+      .works_text {
+        font: bold 18px/2em "Fira code", Arial, Helvetica, sans-serif;
+      }
+      .works_link {
+        font: normal 14px/2em "Fira code", Arial, Helvetica, sans-serif;
+        padding: 0 20px;
+        background: #acdef3;
+        align-self: stretch;
+        border-radius: 10px;
+      }
+      .works_box {
+        display: flex;
+        align-items: flex-start;
+      }
+      .icon_link {
+        margin-right: 10px;
+      }
+      .works_img {
+        width: 6rem;
+        font-size: 0;
+        vertical-align: top;
+        border: 1px solid #acdef3;
+        padding: 0.4rem;
+        border-radius: 1rem;
+        transition: all 0.2s ease-in-out;
+      }
+      .works_img:hover {
+        box-shadow: 0 6px 3px #92bed0;
+      }
+      .works_brief {
+        margin: 0;
+        padding: 0;
+        font: normal 14px/1.5em "Fira code", Arial, Helvetica, sans-serif;
+        text-align: justify;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="web_title">
+      <div class="title_box">
+        <div class="title_content">
+          <h1 class="title_text">aurora's</h1>
+          <img src="./image/person_male.png" class="head_img" />
+          <h1 class="title_text">creation</h1>
+        </div>
+        <h2 class="works_title">works List</h2>
+      </div>
+    </header>
+    <section class="works_list">
+      <div class="works_content">
+        <section class="works_item">
+          <h3 class="works_text">birthday's page</h3>
+          <p class="works_link">
+            path:<a href="./birthdayTest.html">aurora's birthday</a>
+          </p>
+          <section class="works_box">
+            <a href="./birthdayTest.html" class="icon_link"
+              ><img
+                src="./image/pathBirthday.png"
+                class="works_img"
+                alt="birthdayPage"
+            /></a>
+            <p class="works_brief">
+              <strong>Introduction:</strong>It is a long established fact that a
+              reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum is that it
+              has a more-or-less normal distribution of letters, as opposed to
+              using 'Content here, content here', making it look like readable
+              English. Many desktop publishing packages and web page editors now
+              use Lorem Ipsum as their default model text
+            </p>
+          </section>
+        </section>
+        <section class="works_item">
+          <h3 class="works_text">Animals's page</h3>
+          <p class="works_link">
+            path:<a href="./pathTest.html">All of Animals</a>
+          </p>
+          <section class="works_box">
+            <a href="./pathTest.html" class="icon_link"
+              ><img
+                src="./image/pathAnimal.png"
+                class="works_img"
+                alt="Animals"
+            /></a>
+            <p class="works_brief">
+              <strong>Introduction:</strong>It is a long established fact that a
+              reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum is that it
+              has a more-or-less normal distribution of letters, as opposed to
+              using 'Content here, content here', making it look like readable
+              English. Many desktop publishing packages and web page editors now
+              use Lorem Ipsum as their default model text
+            </p>
+          </section>
+        </section>
+        <section class="works_item">
+          <h3 class="works_text">aurora's blog</h3>
+          <p class="works_link">path:<a href="./blog.html">aurora's blog</a></p>
+          <section class="works_box">
+            <a href="./blog.html" class="icon_link"
+              ><img
+                src="./image/pathBlog.png"
+                class="works_img"
+                alt="blog page"
+            /></a>
+            <p class="works_brief">
+              <strong>Introduction:</strong>It is a long established fact that a
+              reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum is that it
+              has a more-or-less normal distribution of letters, as opposed to
+              using 'Content here, content here', making it look like readable
+              English. Many desktop publishing packages and web page editors now
+              use Lorem Ipsum as their default model text
+            </p>
+          </section>
+        </section>
+        <section class="works_item">
+          <h3 class="works_text">Movie's page</h3>
+          <p class="works_link">
+            path:<a href="./movieTest.html">Movie's list</a>
+          </p>
+          <section class="works_box">
+            <a href="./movieTest.html" class="icon_link"
+              ><img
+                src="./image/pathMovie.png"
+                class="works_img"
+                alt="movie list"
+            /></a>
+            <p class="works_brief">
+              <strong>Introduction:</strong>It is a long established fact that a
+              reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum is that it
+              has a more-or-less normal distribution of letters, as opposed to
+              using 'Content here, content here', making it look like readable
+              English. Many desktop publishing packages and web page editors now
+              use Lorem Ipsum as their default model text
+            </p>
+          </section>
+        </section>
+      </div>
+    </section>
+  </body>
+</html>

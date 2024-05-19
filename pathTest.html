@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pathTest</title>
+    <style>
+      html,
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      div {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        padding: 10vh 0;
+        font-family: "Fira code", Arial, Helvetica, sans-serif;
+      }
+      .container {
+        width: fit-content;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .title {
+        font: bold 26px/1.5em "Fira code", Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+      .card_collection {
+        margin-top: 30px;
+        display: flex;
+      }
+      .card {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-right: 10px;
+        box-shadow: 0;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      .card:hover {
+        box-shadow: 0 6px 3px rgba(0, 0, 0, 0.4);
+      }
+      .card:last-child {
+        margin-right: 0;
+      }
+      .card_icon {
+        margin: 0;
+        font-size: 0;
+        vertical-align: top;
+        width: 80px;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 50%;
+      }
+      .card_text {
+        font: bold 16px/2.2em Verdana, Geneva, Tahoma, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">All the Animals</h1>
+      <section class="card_collection">
+        <section class="card">
+          <img
+            src="./image/vertabrate/mammalian/rabbit.png"
+            class="card_icon"
+          />
+          <strong class="card_text">rabbit</strong>
+        </section>
+        <section class="card">
+          <img src="./image/vertabrate/mammalian/cat.png" class="card_icon" />
+          <strong class="card_text">cat</strong>
+        </section>
+        <section class="card">
+          <img src="./image/vertabrate/mammalian/dog.png" class="card_icon" />
+          <strong class="card_text">dog</strong>
+        </section>
+        <section class="card">
+          <img src="./image/vertabrate/fish.png" class="card_icon" />
+          <strong class="card_text">fish</strong>
+        </section>
+        <section class="card">
+          <img src="./image/oviparous/bird.png" class="card_icon" />
+          <strong class="card_text">bird</strong>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
